@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://erytan.github.io/BaoCaoSchoolTeaaaa",
+  "homepage": "https://erytan.github.io/BaoCaoSchoolTea",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
