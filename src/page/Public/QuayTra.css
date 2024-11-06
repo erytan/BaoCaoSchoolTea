@@ -1,0 +1,27 @@
+/* QuayTra.css */
+.quay-tra-container {
+  display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử theo hàng ngang */
+  justify-content: space-between; /* Đảm bảo các item có khoảng cách đều nhau */
+  align-items: flex-start; /* Căn chỉnh các phần tử theo chiều dọc (ở đây là top) */
+  gap: 20px; /* Khoảng cách giữa các phần tử */
+  flex-wrap: wrap; /* Đảm bảo nếu màn hình nhỏ thì các item sẽ tự động xuống dòng */
+  padding: 20px; /* Padding cho container */
+}
+
+.quay-tra-item {
+  flex: 1; /* Các item chiếm bằng nhau */
+  max-width: 32%; /* Đảm bảo mỗi item không quá rộng, để tránh bị tràn */
+  box-sizing: border-box; /* Đảm bảo padding và margin không làm phần tử vượt quá kích thước */
+}
+
+@media (max-width: 768px) {
+  .quay-tra-container {
+    flex-direction: column; /* Khi màn hình nhỏ hơn 768px, các phần tử sẽ xếp thành cột */
+    align-items: center; /* Căn giữa các phần tử */
+  }
+
+  .quay-tra-item {
+    max-width: 100%; /* Mỗi item chiếm toàn bộ chiều rộng */
+    margin-bottom: 20px; /* Thêm khoảng cách giữa các item */
+  }
+}
