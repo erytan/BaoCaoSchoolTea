@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/BaoCaoSchoolTeaaaa/static/css/main.17a17317.css",
-    "main.js": "/BaoCaoSchoolTeaaaa/static/js/main.66ee3a64.js",
-    "index.html": "/BaoCaoSchoolTeaaaa/index.html",
-    "main.17a17317.css.map": "/BaoCaoSchoolTeaaaa/static/css/main.17a17317.css.map",
-    "main.66ee3a64.js.map": "/BaoCaoSchoolTeaaaa/static/js/main.66ee3a64.js.map"
+    "main.css": "/BaoCaoSchoolTea/static/css/main.17a17317.css",
+    "main.js": "/BaoCaoSchoolTea/static/js/main.66ee3a64.js",
+    "index.html": "/BaoCaoSchoolTea/index.html",
+    "main.17a17317.css.map": "/BaoCaoSchoolTea/static/css/main.17a17317.css.map",
+    "main.66ee3a64.js.map": "/BaoCaoSchoolTea/static/js/main.66ee3a64.js.map"
   },
   "entrypoints": [
     "static/css/main.17a17317.css",
