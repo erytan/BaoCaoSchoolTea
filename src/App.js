@@ -6,7 +6,7 @@ import path from './ultils/path';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/BaoCaoSchoolTea"> {/* Chỉnh đường dẫn đúng tên repository */}
         <Routes>
           <Route path={path.PUBLIC} element={<Home />} />
           <Route path={path.QUAYTRA} element={<QuayTra />} />
